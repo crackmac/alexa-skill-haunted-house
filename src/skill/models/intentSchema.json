@@ -1,0 +1,85 @@
+{
+  "intents": [
+    {
+      "intent": "UnrecognizedIntent"
+    },
+    {
+      "intent": "ResetStateIntent"
+    },
+    {
+      "intent": "RestoreStateIntent"
+    },
+    {
+      "intent": "RepeatOptionsIntent"
+    },
+    {
+      "intent": "RepeatSceneIntent"
+    },
+    {
+      "intent": "GoBackIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "BeginIntent"
+    },
+    {
+      "intent": "OpenDoorIntent"
+    },
+    {
+      "intent": "RunAwayIntent"
+    },
+    {
+      "intent": "StairsIntent"
+    },
+    {
+      "intent": "LivingRoomIntent"
+    },
+    {
+      "intent": "ContinueUpTheStairsIntent"
+    },
+    {
+      "intent": "WalkToTheFireplaceIntent"
+    },
+    {
+      "intent": "LookAtTheDeskIntent"
+    },
+    {
+      "intent": "OtherRoomIntent"
+    },
+    {
+      "intent": "GoToTheBasementIntent"
+    },
+    {
+      "intent": "LookInTheOvenIntent"
+    },
+    {
+      "intent": "TheNextRoomIntent"
+    },
+    {
+      "intent": "DownTheStairsIntent"
+    },
+    {
+      "intent": "NextRoomIntent"
+    },
+    {
+      "intent": "SitAtTheTableIntent"
+    },
+    {
+      "intent": "ClosetIntent"
+    },
+    {
+      "intent": "FrontDoorIntent"
+    },
+    {
+      "intent": "StaircaseIntent"
+    }
+  ]
+}

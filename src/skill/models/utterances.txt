@@ -1,0 +1,35 @@
+UnrecognizedIntent ThisIsPurposlyNonSense
+UnrecognizedIntent ThisIsPurposlyNonSense ThisIsPurposlyNonSense
+UnrecognizedIntent ThisIsPurposlyNonSense ThisIsPurposlyNonSense ThisIsPurposlyNonSense
+UnrecognizedIntent ThisIsPurposlyNonSense ThisIsPurposlyNonSense ThisIsPurposlyNonSense ThisIsPurposlyNonSense
+UnrecognizedIntent ThisIsPurposlyNonSense ThisIsPurposlyNonSense ThisIsPurposlyNonSense ThisIsPurposlyNonSense ThisIsPurposlyNonSense
+ResetStateIntent reset skill
+ResetStateIntent start again
+ResetStateIntent reset
+RestoreStateIntent resume skill
+RestoreStateIntent resume
+RepeatOptionsIntent repeat options
+RepeatSceneIntent repeat scene
+RepeatSceneIntent repeat
+GoBackIntent go back
+AMAZON.HelpIntent help
+AMAZON.StopIntent exit skill
+AMAZON.CancelIntent exit skill
+BeginIntent begin
+OpenDoorIntent open door
+RunAwayIntent run away
+StairsIntent Stairs
+LivingRoomIntent Living Room
+ContinueUpTheStairsIntent Continue up the stairs
+WalkToTheFireplaceIntent walk to the Fireplace
+LookAtTheDeskIntent look at the Desk
+OtherRoomIntent Other Room
+GoToTheBasementIntent Go to the Basement
+LookInTheOvenIntent Look in the Oven
+TheNextRoomIntent The Next Room
+DownTheStairsIntent Down the Stairs
+NextRoomIntent Next room
+SitAtTheTableIntent Sit at the table
+ClosetIntent Closet
+FrontDoorIntent Front door
+StaircaseIntent Staircase

@@ -1,0 +1,515 @@
+[
+  {
+    "id": 0,
+    "color": "default",
+    "isHidden": false,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Welcome",
+      "text": "Welcome to the haunted house skill. To learn how to use this skill, say \"Help\".",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Welcome to the haunted house skill. To learn how to use this skill, say \"Help\".",
+      "prompt": "When you are ready, say \"Begin\"."
+    },
+    "options": [
+      {
+        "utterances": [
+          "begin"
+        ],
+        "sceneId": 1
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "color": "default",
+    "isHidden": false,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Welcome",
+      "text": "You find yourself at the front door of a very dark and scary house. You can choose to open the door or to run away. Which do you choose?",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You find yourself at the front door of a very dark and scary house. You can choose to open the door or to run away. Which do you choose?",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "utterances": [
+          "open door"
+        ],
+        "sceneId": 2
+      },
+      {
+        "utterances": [
+          "run away"
+        ],
+        "sceneId": 3
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "color": "red",
+    "isHidden": false,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Front Hallway",
+      "text": "You enter a dark, musty smelling hallway. In front of you there are stairs leading to the second floor and to the left is the living room. Choose the stairs or the living room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You enter a dark, musty smelling hallway. In front of you there are stairs leading to the second floor and to the left is the living room. Choose the stairs or the living room.",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 4,
+        "utterances": [
+          "Stairs"
+        ]
+      },
+      {
+        "sceneId": 7,
+        "utterances": [
+          "Living Room"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "color": "yellow",
+    "isHidden": false,
+    "readPreviousOptions": true,
+    "card": {
+      "title": "Your Alive",
+      "text": "You have escaped the haunted house alive and are safely at home.\n\nIf you would like to play again say, \"start again.\" Otherwise you can say \"exit skill.\"",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You have escaped the haunted house alive and are safely at home.\n\nIf you would like to play again say, \"start again.\" Otherwise you can say \"exit skill.\"",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 4,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Staircase",
+      "text": "You start to walk up the ancient staircase noticing the peeling wallpaper and rotting carpet. halfway up the wooden steps start making loud cracking sounds. You can choose, \"continue up the stairs\" or \"go back\". What would you like to do?",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You start to walk up the ancient staircase noticing the peeling wallpaper and rotting carpet. halfway up the wooden steps start making loud cracking sounds. You can choose, \"continue up the stairs\" or \"go back\". What would you like to do?",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 8,
+        "utterances": [
+          "Continue up the stairs"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "You Died!",
+      "text": "You start to climb the stairs to the second floor when all of the sudden the rotting wood gives way under your weight and you crash through the stairs into the basement where you are never seen again!",
+      "prompt": "If you would like to play again say, \"start again.\" Otherwise you can say \"exit skill\"",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You start to climb the stairs to the second floor when all of the sudden the rotting wood gives way under your weight and you crash through the stairs into the basement where you are never seen again!",
+      "prompt": "If you would like to play again say, \"start again.\" Otherwise you can say \"exit skill\""
+    },
+    "options": []
+  },
+  {
+    "id": 7,
+    "color": "green",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Living Room",
+      "text": "You enter the living room although it doesn't appear much has lived her in a long, long time. It is very dark but the light from the street shines through the cracks in the boarded up windows and you can see a few pieces of rotting old furniture, a large fireplace, a desk with some papers on it and a door that looks to lead to another room. Which would you like to do? Walk over to the fireplace, Look at the desk or go to the other room?",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You enter the living room although it doesn't appear much has lived her in a long, long time. It is very dark but the light from the street shines through the cracks in the boarded up windows and you can see a few pieces of rotting old furniture, a large fireplace, a desk with some papers on it and a door that looks to lead to another room. Which would you like to do? Walk over to the fireplace, Look at the desk or go to the other room?",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 9,
+        "utterances": [
+          "walk to the Fireplace"
+        ]
+      },
+      {
+        "sceneId": 10,
+        "utterances": [
+          "look at the Desk"
+        ]
+      },
+      {
+        "sceneId": 11,
+        "utterances": [
+          "Other Room"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "You Died!",
+      "text": "You fell through the stairs into the basement and were never seen again.",
+      "prompt": "If you would like to play again say, \"start again.\" Otherwise you can say \"exit skill\"",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You fell through the stairs into the basement and were never seen again.",
+      "prompt": "If you would like to play again say, \"start again.\" Otherwise you can say \"exit skill\""
+    },
+    "options": []
+  },
+  {
+    "id": 9,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Fireplace",
+      "text": "You walk over to the huge, ornate fireplace. The mantle is covered in cobwebs and dust. Suddenly a huge, blinding flash and a roaring fire appears in the the fireplace. The heat and light feel good but you suddenly get the feeling that you are not alone anymore. Say \"Go back.\"",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You walk over to the huge, ornate fireplace. The mantle is covered in cobwebs and dust. Suddenly a huge, blinding flash and a roaring fire appears in the the fireplace. The heat and light feel good but you suddenly get the feeling that you are not alone anymore. Say \"Go back.\"",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 10,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Desk",
+      "text": "You walk over to the desk and look at some of the books and papers scattered across the top. There is a picture of an young handsome man lying in a coffin. You find a torn up letter but in the dim light you cannot make out what it says. The main drawer is locked. Perhaps there is a key somewhere. Say \"Go back.\"",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You walk over to the desk and look at some of the books and papers scattered across the top. There is a picture of an young handsome man lying in a coffin. You find a torn up letter but in the dim light you cannot make out what it says. The main drawer is locked. Perhaps there is a key somewhere. Say \"Go back.\"",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 11,
+    "color": "yellow",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Kitchen",
+      "text": "You enter the Kitchen. Rows of cabinets, most with their doors fallen off. A large stove and oven on one side and on the other side several sinks with pots, pans and plates scattered about. The rain has started to fall heavier now. Lightning flashes and the roll of thunder shakes the pans on the countertops. There is a door that looks to lead to the basement, and there is a entry to the next room. You can choose to \"go to the basement\", \"Look in the oven\", or \"the next room\".",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You enter the Kitchen. Rows of cabinets, most with their doors fallen off. A large stove and oven on one side and on the other side several sinks with pots, pans and plates scattered about. The rain has started to fall heavier now. Lightning flashes and the roll of thunder shakes the pans on the countertops. There is a door that looks to lead to the basement, and there is a entry to the next room. You can choose to \"go to the basement\", \"Look in the oven\", or \"the next room\".",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 12,
+        "utterances": [
+          "Go to the Basement"
+        ]
+      },
+      {
+        "sceneId": 13,
+        "utterances": [
+          "Look in the Oven"
+        ]
+      },
+      {
+        "sceneId": 14,
+        "utterances": [
+          "The Next Room"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Basement",
+      "text": "You open the basement door. The foul air rushes past you but you are drawn by some strange force. You can choose to \"go down the stairs\" or \"go back\".",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You open the basement door. The foul air rushes past you but you are drawn by some strange force. You can choose to \"go down the stairs\" or \"go back\".",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 15,
+        "utterances": [
+          "Down the Stairs"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Oven",
+      "text": "You head over to the large oven with two heavy cast iron doors. You grab the cold metal handles and pull the doors open. You hear the loud squeak of several large rats as they scurry out of the oven opening and run across your feet. You are glad you are not eating in this kitchen. Say \"Go back.\"",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You head over to the large oven with two heavy cast iron doors. You grab the cold metal handles and pull the doors open. You hear the loud squeak of several large rats as they scurry out of the oven opening and run across your feet. You are glad you are not eating in this kitchen. Say \"Go back.\"",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 14,
+    "color": "red",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Dining Room",
+      "text": "You walk through a doorway into what appears to be a very large and at one time luxurious dining room. A long table with many chairs and still some plates and glasses set up for service at one end of the table. On one wall is a door to what appears to be a closet and on another wall is the entrance to another room. What would you like to do? You can \"Look in the closet\", enter the \"Next Room\" or \"Sit at the table\".",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You walk through a doorway into what appears to be a very large and at one time luxurious dining room. A long table with many chairs and still some plates and glasses set up for service at one end of the table. On one wall is a door to what appears to be a closet and on another wall is the entrance to another room. What would you like to do? You can \"Look in the closet\", enter the \"Next Room\" or \"Sit at the table\".",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 16,
+        "utterances": [
+          "Next room"
+        ]
+      },
+      {
+        "sceneId": 17,
+        "utterances": [
+          "Sit at the table"
+        ]
+      },
+      {
+        "sceneId": 18,
+        "utterances": [
+          "Closet"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "You died!",
+      "text": "You fell through the stairs into the basement and were never seen again.",
+      "prompt": "If you would like to play again say, \"start again.\" Otherwise you can say \"exit skill\"",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You fell through the stairs into the basement and were never seen again.",
+      "prompt": "If you would like to play again say, \"start again.\" Otherwise you can say \"exit skill\""
+    },
+    "options": []
+  },
+  {
+    "id": 16,
+    "color": "green",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Front Hallway",
+      "text": "You enter a dark, musty smelling hallway. You can exit via the \"Front door\" or say, \"start again.\"",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You enter a room. What would you like to do?",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 19,
+        "utterances": [
+          "Front door"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Eat Dinner",
+      "text": "You sit down at the head of the table to rest. A place setting with tarnished plates an silverware are laid out in front of you like a dinner party for the dead. You hear the faint soothing sound of violin music in the distance and you suddenly feel dizzy, like you are about to black out. A sudden flash of lightning and explosion of thunder shake you out of the trance and you jump to your feet. Say \"go back\".",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You sit down at the head of the table to rest. A place setting with tarnished plates an silverware are laid out in front of you like a dinner party for the dead. You hear the faint soothing sound of violin music in the distance and you suddenly feel dizzy, like you are about to black out. A sudden flash of lightning and explosion of thunder shake you out of the trance and you jump to your feet. Say \"go back\".",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 18,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Look in the closet",
+      "text": "You open the closet door and discover a secret staircase that goes up to the second floor. You can choose to \"Go up the staircase\" or \"Go back\".",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You open the closet door and discover a secret staircase that goes up to the second floor. You can choose to \"Go up the staircase\" or \"Go back\".",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 5,
+        "utterances": [
+          "Staircase"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "You are alive!",
+      "text": "You have escaped the haunted house alive and are safely at home.\n\nIf you would like to play again say, \"start again.\" Otherwise you can say \"exit skill.\"",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You have escaped the haunted house alive and are safely at home.\n\nIf you would like to play again say, \"start again.\" Otherwise you can say \"exit skill.\"",
+      "prompt": ""
+    },
+    "options": []
+  }
+]
